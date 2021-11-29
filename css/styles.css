@@ -1,0 +1,23 @@
+.Home-page{
+    background-color: #6881b3;
+    color: white;
+    padding: 10% 0;
+}
+
+.head {
+    text-align: center;
+}
+
+ button{
+    border: none;
+}
+
+button:hover {
+    background-color: #477ce8;
+    color: white;
+}
+
+.scalable svg{
+    width: 75%;
+    height:50%;
+}
