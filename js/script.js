@@ -12,7 +12,7 @@ var synonyms = document.querySelector('.synonyms');
 
 button.addEventListener('click', function(){
     // fetch('https://api.dictionaryapi.dev/api/v2/entries/en/'+searchWord.value+'')
-    fetch('https://www.dictionaryapi.com/api/v3/references/collegiate/json/'+searchWord.value+'?key=ca9f940d-d548-4bad-868e-c5ef6b430e5d')
+    fetch('https://www.dictionaryapi.com/api/v3/references/collegiate/json/'+searchWord.value + {yourKey})
     .then(response => response.json())
 
     // .then(result => console.log(result))
