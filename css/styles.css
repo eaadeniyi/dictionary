@@ -1,5 +1,14 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
 .Home-page{
     background-color: #6881b3;
+    background-size: cover;
     color: white;
     padding: 10% 0;
 }
@@ -8,16 +17,14 @@
     text-align: center;
 }
 
- button{
-    border: none;
+button{
+    border: none;}
+
+svg {
+    width: 50%;
+    height:auto;
 }
 
-button:hover {
-    background-color: #477ce8;
-    color: white;
-}
-
-.scalable svg{
-    width: 75%;
-    height:50%;
+.definition{
+    line-height: 2.0rem;
 }
